@@ -1,0 +1,13 @@
+{
+	"name": "@supercolony-net/typechain-polkadot_example",
+	"scripts": {
+		"parse-abis": "npx @supercolony-net/typechain-polkadot --in src/abi --out src/generated",
+		"start": "npm run parse-abis"
+	},
+	"devDependencies": {
+		"@polkadot/api": "^8.6.2",
+		"@polkadot/api-contract": "^8.6.2",
+		"@supercolony-net/typechain-polkadot": "0.0.1",
+		"typescript": "^4.7.2"
+	}
+}

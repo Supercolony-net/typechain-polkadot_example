@@ -1,0 +1,34 @@
+/* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+
+{
+
+	// "files": [ "src/index.ts" ],
+	"include": [ "src" ],
+
+	"compilerOptions": {
+		"module": "commonjs",
+		"module": "ESNext",
+		"target": "ESNext",
+		"noEmit": true,
+		"moduleResolution": "Node",
+
+		"allowJs": false,
+		"checkJs": false,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"useUnknownInCatchVariables": false,
+
+		"strict": true,
+		"alwaysStrict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUncheckedIndexedAccess": true,
+		"noFallthroughCasesInSwitch": true,
+
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"incremental": true,
+
+	},
+
+}
